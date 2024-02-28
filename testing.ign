@@ -1,0 +1,20 @@
+{
+  "ignition": {
+    "config": {
+      "replace": {
+        "source": "http://192.168.5.6:3000/IT_support/fedora.git"
+      }
+    },
+    "version": "3.4.0"
+  },
+  "passwd": {
+    "users": [
+      {
+        "name": "core",
+        "sshAuthorizedKeys": [
+          "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCsE7S89yTs/DnqspQqk4AJ3+4TF9a+wnkoACHm7YNV1jqj0GXeIDbQDRoxnzhQ0KDe40/BgGVfCL/det1Ghd096jQD61YGIyl/CKgv1jGL190VYFWVIVErFvc5Z7s0zbDFI7HjFjKzj7M5W195c2QWOMKrtHRFFx61vR660HAEpl5JATdFnPOJfQZMDphlrnt5OhEHOiupR832UBkgcnt0otivyjPMxU95rGuq+OlqmjUR3E5pjIIfJWS4g90HiBre1GHm5aeB5iA4Y/Np1I3wUv9IkGAHq/+mB/HMGrMx0q+87u/ENZoM3bQDaK8B9Wx+JBmSiQ/IeHwVNyioocb9 mybook z series@Cakra-Wijaya"
+        ]
+      }
+    ]
+  }
+}
