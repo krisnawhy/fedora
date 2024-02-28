@@ -2,7 +2,7 @@
   "ignition": {
     "config": {
       "replace": {
-        "source": "http://192.168.5.6:3000/IT_support/fedora.git"
+        "source": "https://github.com/krisnawhy/fedora.git"
       }
     },
     "version": "3.4.0"
